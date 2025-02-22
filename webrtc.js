@@ -16,8 +16,8 @@ const USE_AUDIO = true;
 const USE_VIDEO = true;
 
 // You can continue using this signalling server or spin up your own.
-// Source to code for thiscan be found at https://github.com/vasanthv/talk/blob/master/signalling-server/index.js
-const SIGNALLING_SERVER = "https://talk-zxrf.onrender.com";
+// Source to code for this can be found at https://github.com/vasanthv/talk/blob/master/signalling-server/index.js
+const SIGNALLING_SERVER = "http://localhost:3000";
 
 let signalingSocket = null; /* our socket.io connection to our webserver */
 let localMediaStream = null; /* our own microphone / webcam */
